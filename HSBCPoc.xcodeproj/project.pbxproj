@@ -1,0 +1,570 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F061AA71E2BF4F900FCBA84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F061AA61E2BF4F900FCBA84 /* AppDelegate.swift */; };
+		8F061AAE1E2BF4F900FCBA84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F061AAD1E2BF4F900FCBA84 /* Assets.xcassets */; };
+		8F061AB11E2BF4F900FCBA84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F061AAF1E2BF4F900FCBA84 /* LaunchScreen.storyboard */; };
+		8F061ABC1E2BF4F900FCBA84 /* HSBCPocTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F061ABB1E2BF4F900FCBA84 /* HSBCPocTests.swift */; };
+		8F061AC71E2BF4F900FCBA84 /* HSBCPocUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F061AC61E2BF4F900FCBA84 /* HSBCPocUITests.swift */; };
+		8F061AD61E2C188A00FCBA84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F061AD41E2C188A00FCBA84 /* Main.storyboard */; };
+		8F061ADA1E2C333A00FCBA84 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F061AD91E2C333A00FCBA84 /* LoginViewController.swift */; };
+		8F061ADC1E2C3CCE00FCBA84 /* CategoryListTsssableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F061ADB1E2C3CCE00FCBA84 /* CategoryListTsssableViewController.swift */; };
+		8F13807A1E5680280075B589 /* EventListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1380791E5680280075B589 /* EventListCell.swift */; };
+		8F13807C1E56804B0075B589 /* EventListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F13807B1E56804B0075B589 /* EventListViewController.swift */; };
+		8F13807E1E56869E0075B589 /* CategoryListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F13807D1E56869E0075B589 /* CategoryListTableViewCell.swift */; };
+		8F1380801E5687DF0075B589 /* CategoryListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F13807F1E5687DF0075B589 /* CategoryListViewController.swift */; };
+		8F1380821E568DDD0075B589 /* OrderListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1380811E568DDD0075B589 /* OrderListViewController.swift */; };
+		8F1380841E568FA20075B589 /* OrderListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1380831E568FA20075B589 /* OrderListCell.swift */; };
+		8F1380861E56A5C60075B589 /* InvalidLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1380851E56A5C60075B589 /* InvalidLogin.swift */; };
+		8F1380881E56AAB30075B589 /* EventDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1380871E56AAB30075B589 /* EventDetail.swift */; };
+		8FDE20E41E55343E007929EF /* OrdersData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDE20E31E55343E007929EF /* OrdersData.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8F061AB81E2BF4F900FCBA84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F061A9B1E2BF4F900FCBA84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F061AA21E2BF4F900FCBA84;
+			remoteInfo = HSBCPoc;
+		};
+		8F061AC31E2BF4F900FCBA84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F061A9B1E2BF4F900FCBA84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F061AA21E2BF4F900FCBA84;
+			remoteInfo = HSBCPoc;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8F061AA31E2BF4F900FCBA84 /* HSBCPoc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HSBCPoc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F061AA61E2BF4F900FCBA84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8F061AAD1E2BF4F900FCBA84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8F061AB01E2BF4F900FCBA84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8F061AB21E2BF4F900FCBA84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F061AB71E2BF4F900FCBA84 /* HSBCPocTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HSBCPocTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F061ABB1E2BF4F900FCBA84 /* HSBCPocTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSBCPocTests.swift; sourceTree = "<group>"; };
+		8F061ABD1E2BF4F900FCBA84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F061AC21E2BF4F900FCBA84 /* HSBCPocUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HSBCPocUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F061AC61E2BF4F900FCBA84 /* HSBCPocUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSBCPocUITests.swift; sourceTree = "<group>"; };
+		8F061AC81E2BF4F900FCBA84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F061AD51E2C188A00FCBA84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = HSBCPoc/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8F061AD91E2C333A00FCBA84 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		8F061ADB1E2C3CCE00FCBA84 /* CategoryListTsssableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryListTsssableViewController.swift; sourceTree = "<group>"; };
+		8F1380791E5680280075B589 /* EventListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventListCell.swift; sourceTree = "<group>"; };
+		8F13807B1E56804B0075B589 /* EventListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventListViewController.swift; sourceTree = "<group>"; };
+		8F13807D1E56869E0075B589 /* CategoryListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryListTableViewCell.swift; sourceTree = "<group>"; };
+		8F13807F1E5687DF0075B589 /* CategoryListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryListViewController.swift; sourceTree = "<group>"; };
+		8F1380811E568DDD0075B589 /* OrderListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderListViewController.swift; sourceTree = "<group>"; };
+		8F1380831E568FA20075B589 /* OrderListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderListCell.swift; sourceTree = "<group>"; };
+		8F1380851E56A5C60075B589 /* InvalidLogin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvalidLogin.swift; sourceTree = "<group>"; };
+		8F1380871E56AAB30075B589 /* EventDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventDetail.swift; sourceTree = "<group>"; };
+		8FDE20E31E55343E007929EF /* OrdersData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrdersData.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F061AA01E2BF4F900FCBA84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F061AB41E2BF4F900FCBA84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F061ABF1E2BF4F900FCBA84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F061A9A1E2BF4F900FCBA84 = {
+			isa = PBXGroup;
+			children = (
+				8F061AA51E2BF4F900FCBA84 /* HSBCPoc */,
+				8F061ABA1E2BF4F900FCBA84 /* HSBCPocTests */,
+				8F061AC51E2BF4F900FCBA84 /* HSBCPocUITests */,
+				8F061AA41E2BF4F900FCBA84 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8F061AA41E2BF4F900FCBA84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F061AA31E2BF4F900FCBA84 /* HSBCPoc.app */,
+				8F061AB71E2BF4F900FCBA84 /* HSBCPocTests.xctest */,
+				8F061AC21E2BF4F900FCBA84 /* HSBCPocUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F061AA51E2BF4F900FCBA84 /* HSBCPoc */ = {
+			isa = PBXGroup;
+			children = (
+				8F061AD41E2C188A00FCBA84 /* Main.storyboard */,
+				8F061ADB1E2C3CCE00FCBA84 /* CategoryListTsssableViewController.swift */,
+				8F061AA61E2BF4F900FCBA84 /* AppDelegate.swift */,
+				8F061AAD1E2BF4F900FCBA84 /* Assets.xcassets */,
+				8F061AAF1E2BF4F900FCBA84 /* LaunchScreen.storyboard */,
+				8F061AB21E2BF4F900FCBA84 /* Info.plist */,
+				8F061AD91E2C333A00FCBA84 /* LoginViewController.swift */,
+				8FDE20E31E55343E007929EF /* OrdersData.swift */,
+				8F1380791E5680280075B589 /* EventListCell.swift */,
+				8F13807B1E56804B0075B589 /* EventListViewController.swift */,
+				8F13807D1E56869E0075B589 /* CategoryListTableViewCell.swift */,
+				8F13807F1E5687DF0075B589 /* CategoryListViewController.swift */,
+				8F1380811E568DDD0075B589 /* OrderListViewController.swift */,
+				8F1380831E568FA20075B589 /* OrderListCell.swift */,
+				8F1380851E56A5C60075B589 /* InvalidLogin.swift */,
+				8F1380871E56AAB30075B589 /* EventDetail.swift */,
+			);
+			path = HSBCPoc;
+			sourceTree = "<group>";
+		};
+		8F061ABA1E2BF4F900FCBA84 /* HSBCPocTests */ = {
+			isa = PBXGroup;
+			children = (
+				8F061ABB1E2BF4F900FCBA84 /* HSBCPocTests.swift */,
+				8F061ABD1E2BF4F900FCBA84 /* Info.plist */,
+			);
+			path = HSBCPocTests;
+			sourceTree = "<group>";
+		};
+		8F061AC51E2BF4F900FCBA84 /* HSBCPocUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8F061AC61E2BF4F900FCBA84 /* HSBCPocUITests.swift */,
+				8F061AC81E2BF4F900FCBA84 /* Info.plist */,
+			);
+			path = HSBCPocUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F061AA21E2BF4F900FCBA84 /* HSBCPoc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F061ACB1E2BF4F900FCBA84 /* Build configuration list for PBXNativeTarget "HSBCPoc" */;
+			buildPhases = (
+				8F061A9F1E2BF4F900FCBA84 /* Sources */,
+				8F061AA01E2BF4F900FCBA84 /* Frameworks */,
+				8F061AA11E2BF4F900FCBA84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HSBCPoc;
+			productName = HSBCPoc;
+			productReference = 8F061AA31E2BF4F900FCBA84 /* HSBCPoc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8F061AB61E2BF4F900FCBA84 /* HSBCPocTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F061ACE1E2BF4F900FCBA84 /* Build configuration list for PBXNativeTarget "HSBCPocTests" */;
+			buildPhases = (
+				8F061AB31E2BF4F900FCBA84 /* Sources */,
+				8F061AB41E2BF4F900FCBA84 /* Frameworks */,
+				8F061AB51E2BF4F900FCBA84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F061AB91E2BF4F900FCBA84 /* PBXTargetDependency */,
+			);
+			name = HSBCPocTests;
+			productName = HSBCPocTests;
+			productReference = 8F061AB71E2BF4F900FCBA84 /* HSBCPocTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8F061AC11E2BF4F900FCBA84 /* HSBCPocUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F061AD11E2BF4F900FCBA84 /* Build configuration list for PBXNativeTarget "HSBCPocUITests" */;
+			buildPhases = (
+				8F061ABE1E2BF4F900FCBA84 /* Sources */,
+				8F061ABF1E2BF4F900FCBA84 /* Frameworks */,
+				8F061AC01E2BF4F900FCBA84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F061AC41E2BF4F900FCBA84 /* PBXTargetDependency */,
+			);
+			name = HSBCPocUITests;
+			productName = HSBCPocUITests;
+			productReference = 8F061AC21E2BF4F900FCBA84 /* HSBCPocUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F061A9B1E2BF4F900FCBA84 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Pierre A";
+				TargetAttributes = {
+					8F061AA21E2BF4F900FCBA84 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					8F061AB61E2BF4F900FCBA84 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8F061AA21E2BF4F900FCBA84;
+					};
+					8F061AC11E2BF4F900FCBA84 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8F061AA21E2BF4F900FCBA84;
+					};
+				};
+			};
+			buildConfigurationList = 8F061A9E1E2BF4F900FCBA84 /* Build configuration list for PBXProject "HSBCPoc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8F061A9A1E2BF4F900FCBA84;
+			productRefGroup = 8F061AA41E2BF4F900FCBA84 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F061AA21E2BF4F900FCBA84 /* HSBCPoc */,
+				8F061AB61E2BF4F900FCBA84 /* HSBCPocTests */,
+				8F061AC11E2BF4F900FCBA84 /* HSBCPocUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F061AA11E2BF4F900FCBA84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F061AD61E2C188A00FCBA84 /* Main.storyboard in Resources */,
+				8F061AB11E2BF4F900FCBA84 /* LaunchScreen.storyboard in Resources */,
+				8F061AAE1E2BF4F900FCBA84 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F061AB51E2BF4F900FCBA84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F061AC01E2BF4F900FCBA84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F061A9F1E2BF4F900FCBA84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F1380861E56A5C60075B589 /* InvalidLogin.swift in Sources */,
+				8F061ADA1E2C333A00FCBA84 /* LoginViewController.swift in Sources */,
+				8F1380821E568DDD0075B589 /* OrderListViewController.swift in Sources */,
+				8F1380801E5687DF0075B589 /* CategoryListViewController.swift in Sources */,
+				8F13807C1E56804B0075B589 /* EventListViewController.swift in Sources */,
+				8F1380881E56AAB30075B589 /* EventDetail.swift in Sources */,
+				8FDE20E41E55343E007929EF /* OrdersData.swift in Sources */,
+				8F061ADC1E2C3CCE00FCBA84 /* CategoryListTsssableViewController.swift in Sources */,
+				8F061AA71E2BF4F900FCBA84 /* AppDelegate.swift in Sources */,
+				8F13807A1E5680280075B589 /* EventListCell.swift in Sources */,
+				8F1380841E568FA20075B589 /* OrderListCell.swift in Sources */,
+				8F13807E1E56869E0075B589 /* CategoryListTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F061AB31E2BF4F900FCBA84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F061ABC1E2BF4F900FCBA84 /* HSBCPocTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F061ABE1E2BF4F900FCBA84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F061AC71E2BF4F900FCBA84 /* HSBCPocUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8F061AB91E2BF4F900FCBA84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F061AA21E2BF4F900FCBA84 /* HSBCPoc */;
+			targetProxy = 8F061AB81E2BF4F900FCBA84 /* PBXContainerItemProxy */;
+		};
+		8F061AC41E2BF4F900FCBA84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F061AA21E2BF4F900FCBA84 /* HSBCPoc */;
+			targetProxy = 8F061AC31E2BF4F900FCBA84 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8F061AAF1E2BF4F900FCBA84 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F061AB01E2BF4F900FCBA84 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		8F061AD41E2C188A00FCBA84 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F061AD51E2C188A00FCBA84 /* Base */,
+			);
+			name = Main.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8F061AC91E2BF4F900FCBA84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8F061ACA1E2BF4F900FCBA84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F061ACC1E2BF4F900FCBA84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HSBCPoc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hsbc.HSBCPoc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		8F061ACD1E2BF4F900FCBA84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HSBCPoc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hsbc.HSBCPoc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		8F061ACF1E2BF4F900FCBA84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HSBCPocTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hsbc.HSBCPocTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HSBCPoc.app/HSBCPoc";
+			};
+			name = Debug;
+		};
+		8F061AD01E2BF4F900FCBA84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HSBCPocTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hsbc.HSBCPocTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HSBCPoc.app/HSBCPoc";
+			};
+			name = Release;
+		};
+		8F061AD21E2BF4F900FCBA84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = HSBCPocUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hsbc.HSBCPocUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = HSBCPoc;
+			};
+			name = Debug;
+		};
+		8F061AD31E2BF4F900FCBA84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = HSBCPocUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hsbc.HSBCPocUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = HSBCPoc;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F061A9E1E2BF4F900FCBA84 /* Build configuration list for PBXProject "HSBCPoc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F061AC91E2BF4F900FCBA84 /* Debug */,
+				8F061ACA1E2BF4F900FCBA84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F061ACB1E2BF4F900FCBA84 /* Build configuration list for PBXNativeTarget "HSBCPoc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F061ACC1E2BF4F900FCBA84 /* Debug */,
+				8F061ACD1E2BF4F900FCBA84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F061ACE1E2BF4F900FCBA84 /* Build configuration list for PBXNativeTarget "HSBCPocTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F061ACF1E2BF4F900FCBA84 /* Debug */,
+				8F061AD01E2BF4F900FCBA84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F061AD11E2BF4F900FCBA84 /* Build configuration list for PBXNativeTarget "HSBCPocUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F061AD21E2BF4F900FCBA84 /* Debug */,
+				8F061AD31E2BF4F900FCBA84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8F061A9B1E2BF4F900FCBA84 /* Project object */;
+}
