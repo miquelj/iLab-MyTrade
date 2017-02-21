@@ -6,6 +6,8 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -105,9 +107,11 @@ My Trade</string>
                                 <rect key="frame" x="-336" y="-14" width="1047" height="695"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Invalid login" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ISZ-wW-nAX">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Invalid login" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ISZ-wW-nAX">
                                 <rect key="frame" x="82" y="259" width="232" height="99"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="ISZ-wW-nAX" secondAttribute="height" multiplier="232:99" id="kvG-RB-ptK"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="35"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -128,6 +132,10 @@ My Trade</string>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ISZ-wW-nAX" firstAttribute="leading" secondItem="yKo-ov-jq4" secondAttribute="leadingMargin" constant="66" id="9Np-3x-Tur"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ISZ-wW-nAX" secondAttribute="trailing" constant="45" id="by8-iF-YhJ"/>
+                        </constraints>
                     </view>
                     <connections>
                         <segue destination="BYZ-38-t0r" kind="presentation" identifier="backToLogin" id="1Wm-9K-sKq"/>
@@ -440,6 +448,6 @@ My Trade</string>
         <image name="photo_port said east_scct_5-08001.jpg" width="700" height="465"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="GMT-Sr-KFB"/>
+        <segue reference="1Wm-9K-sKq"/>
     </inferredMetricsTieBreakers>
 </document>
