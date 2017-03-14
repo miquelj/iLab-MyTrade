@@ -9,6 +9,11 @@
 import UIKit
 
 class CategoryListViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+    
+    @IBAction func Credits(_ sender: Any) {
+    self.performSegue(withIdentifier :"OrderList" ,sender: self)
+    
+    }
 
     @IBOutlet weak var tableView: UITableView!
     @IBAction func logout(_ sender: Any) {
@@ -50,15 +55,15 @@ class CategoryListViewController: UIViewController, UITableViewDataSource, UITab
         case 0:
             table = OrdersData.Singleton.Imports
             
-            cell.LBLCategory.text = "Imports"
+            cell.LBLCategory.text = "Remises Documentaires"
         case 1:
             table = OrdersData.Singleton.Exports
             
-            cell.LBLCategory.text = "Exports"
+            cell.LBLCategory.text = "Crédits Documentaires"
         case 2:
             table = OrdersData.Singleton.AllEvents
             
-            cell.LBLCategory.text = "Events"
+            cell.LBLCategory.text = "Financements"
         default:
             cell.LBLCategory.text=""
         }

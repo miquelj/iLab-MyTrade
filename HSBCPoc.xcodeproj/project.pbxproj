@@ -24,7 +24,6 @@
 		8F1380861E56A5C60075B589 /* InvalidLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1380851E56A5C60075B589 /* InvalidLogin.swift */; };
 		8F1380881E56AAB30075B589 /* EventDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1380871E56AAB30075B589 /* EventDetail.swift */; };
 		8FDE20E41E55343E007929EF /* OrdersData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDE20E31E55343E007929EF /* OrdersData.swift */; };
-		A29F5CF11E5C7A2200DD390F /* photo_port said east_scct_5-08001.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A29F5CF01E5C7A2200DD390F /* photo_port said east_scct_5-08001.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,7 +67,6 @@
 		8F1380851E56A5C60075B589 /* InvalidLogin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvalidLogin.swift; sourceTree = "<group>"; };
 		8F1380871E56AAB30075B589 /* EventDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventDetail.swift; sourceTree = "<group>"; };
 		8FDE20E31E55343E007929EF /* OrdersData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrdersData.swift; sourceTree = "<group>"; };
-		A29F5CF01E5C7A2200DD390F /* photo_port said east_scct_5-08001.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "photo_port said east_scct_5-08001.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,7 +117,6 @@
 		8F061AA51E2BF4F900FCBA84 /* HSBCPoc */ = {
 			isa = PBXGroup;
 			children = (
-				A29F5CF01E5C7A2200DD390F /* photo_port said east_scct_5-08001.jpg */,
 				8F061AD41E2C188A00FCBA84 /* Main.storyboard */,
 				8F061ADB1E2C3CCE00FCBA84 /* CategoryListTsssableViewController.swift */,
 				8F061AA61E2BF4F900FCBA84 /* AppDelegate.swift */,
@@ -267,7 +264,6 @@
 			files = (
 				8F061AD61E2C188A00FCBA84 /* Main.storyboard in Resources */,
 				8F061AB11E2BF4F900FCBA84 /* LaunchScreen.storyboard in Resources */,
-				A29F5CF11E5C7A2200DD390F /* photo_port said east_scct_5-08001.jpg in Resources */,
 				8F061AAE1E2BF4F900FCBA84 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -460,6 +456,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = hsbc.HSBCPoc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -472,6 +469,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = hsbc.HSBCPoc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
